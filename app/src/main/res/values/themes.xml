@@ -1,0 +1,141 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.BaseApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="circularProgressIndicatorStyle">@style/Widget.App.CircularProgressIndicator</item>
+    </style>
+
+    <style name="ToolbarTitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/palanquin_dark_semibold</item>
+    </style>
+
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator</item>
+        <item name="trackThickness">20dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/buttonTint</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="Theme.BaseApplication.NoPreview">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.BaseApplication.NoStatusBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="Theme.BaseApplication.White">
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_dialog</item>
+    </style>
+
+    <style name="WhiteText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="WhiteText.SemiBold">
+        <item name="fontFamily">@font/palanquin_dark_semibold</item>
+    </style>
+
+    <style name="WhiteText.Regular">
+        <item name="fontFamily">@font/palanquin_dark</item>
+    </style>
+
+    <style name="WhiteText.Regular.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="WhiteText.SemiBold.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PrimaryDark">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="PrimaryDark.Regular">
+        <item name="fontFamily">@font/palanquin_dark</item>
+    </style>
+
+    <style name="PrimaryDark.Medium">
+        <item name="fontFamily">@font/palanquin_dark_medium</item>
+    </style>
+
+    <style name="PrimaryDark.Medium.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TertiaryLight">
+        <item name="android:textColor">@color/tertiaryLight</item>
+    </style>
+
+    <style name="TertiaryLight.Medium">
+        <item name="fontFamily">@font/palanquin_dark_medium</item>
+    </style>
+
+    <style name="TertiaryLight.Medium.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black.SemiBold">
+        <item name="fontFamily">@font/palanquin_dark_semibold</item>
+    </style>
+
+    <style name="Black.SemiBold.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+
+    <style name="PrimaryText.SemiBold">
+        <item name="fontFamily">@font/palanquin_dark_semibold</item>
+    </style>
+
+    <style name="PrimaryText.SemiBold.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

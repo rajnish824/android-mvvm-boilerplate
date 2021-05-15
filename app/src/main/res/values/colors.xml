@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    app colors-->
+
+    <color name="primaryText">#000000</color>
+    <color name="tertiaryLight">#5B5B5B</color>
+    <color name="buttonTint">#00B37A</color>
+    <color name="colorPrimaryDark">@color/black</color>
+
+    <color name="black10opacity">#1A000000</color>
+    <color name="black40Opacity">#66000000</color>
+    <color name="black70Opacity">#B3000000</color>
+    <color name="black700opacity">#B7000000</color>
+    <color name="shadowColor">#DF000000</color>
+</resources>
