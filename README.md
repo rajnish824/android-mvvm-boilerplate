@@ -27,10 +27,10 @@ Project Structure
     │   └── ApiServices.kt
     │ 
     ├── onboarding/
-    │   └── OnBoardingActivity.kt/
+    │   └── OnBoardingActivity.kt
     │ 
     ├── repository/
-    │   └── DashboardRepository.kt/
+    │   └── DashboardRepository.kt
     │ 
     ├── ui/
     │   └── dashboard/
