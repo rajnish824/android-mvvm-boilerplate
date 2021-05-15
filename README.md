@@ -1,5 +1,4 @@
 # android-mvvm-boilerplate
-# android-mvvm-boilerplate-code
 Project Structure
 <pre>
 .
