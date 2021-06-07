@@ -1,4 +1,14 @@
 # android-mvvm-boilerplate
+This repository contains boilerplate code of android MVVM architecture using KOIN.
+
+## Tech-stack
+- View binding
+- RxJava2
+- Retrofit2
+- Okhttp
+- Kotlin coroutines
+- Moshi
+
 Project Structure
 <pre>
 .
